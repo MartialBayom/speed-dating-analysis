@@ -1,4 +1,4 @@
-# 💘 Speed Dating — Analyse des Facteurs de Séduction
+#  Speed Dating - Analyse des Facteurs de Séduction
 
 > *Comprendre ce qui influence l'obtention d'un second rendez-vous grâce à l'analyse exploratoire de données de speed dating*
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 **Qu'est-ce qui fait qu'on obtient un second rendez-vous après un speed dating ?**
 
@@ -17,7 +17,7 @@ Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating 
 
 ---
 
-## 📊 Résultats clés
+##  Résultats clés
 
 | Facteur | Corrélation avec match | Remarque |
 |---|---|---|
@@ -31,7 +31,7 @@ Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating 
 
 ---
 
-## 🗂️ Structure du projet
+##  Structure du projet
 
 speed-dating-analysis/
 ├── notebooks/
@@ -40,12 +40,12 @@ speed-dating-analysis/
 ├── README.md
 └── requirements.txt
 
-> ℹ️ Le dataset (~8 000 observations, 195 variables) n'est pas versionné dans ce repo : le notebook
+>  Le dataset (~8 000 observations, 195 variables) n'est pas versionné dans ce repo : le notebook
 > le charge directement depuis l'URL S3 fournie par Jedha au moment de l'exécution.
 
 ---
 
-## 🧠 Analyses réalisées
+##  Analyses réalisées
 
 | Analyse | Technique |
 |---|---|
@@ -57,7 +57,7 @@ speed-dating-analysis/
 
 ---
 
-## 📈 Insights clés
+##  Insights clés
 
 - **43%** de taux de match global
 - L'**attractivité physique** est le critère n°1 pour les deux genres
@@ -68,7 +68,7 @@ speed-dating-analysis/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/MartialBayom/speed-dating-analysis.git
@@ -79,17 +79,17 @@ jupyter notebook notebooks/Speed_Dating_Analysis_VALIDE_.ipynb
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 | | Nom | Rôle |
 |---|---|---|
-| 🧑‍💻 | **Martial BAYOM** | Data Science |
+|  | **Martial BAYOM** | Data Science |
 
 Projet réalisé dans le cadre de la **certification Jedha AI School** (RNCP Niveau 6)
 
 ---
 
-## 📂 Sources
+##  Sources
 
 | Dataset | Lien |
 |---|---|
