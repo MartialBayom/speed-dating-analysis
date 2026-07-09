@@ -1,4 +1,4 @@
-# Speed Dating — Analyse des Facteurs de Séduction
+# 💘 Speed Dating — Analyse des Facteurs de Séduction
 
 > *Comprendre ce qui influence l'obtention d'un second rendez-vous grâce à l'analyse exploratoire de données de speed dating*
 
@@ -9,7 +9,7 @@
 
 ---
 
-## Objectif
+## 🎯 Objectif
 
 **Qu'est-ce qui fait qu'on obtient un second rendez-vous après un speed dating ?**
 
@@ -17,7 +17,7 @@ Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating 
 
 ---
 
-## Résultats clés
+## 📊 Résultats clés
 
 | Facteur | Corrélation avec match | Remarque |
 |---|---|---|
@@ -31,4 +31,66 @@ Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating 
 
 ---
 
-## Structure du projet
+## 🗂️ Structure du projet
+
+speed-dating-analysis/
+├── notebooks/
+│   └── Speed_Dating_Analysis_VALIDE_.ipynb   # EDA complète + tests statistiques
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+> ℹ️ Le dataset (~8 000 observations, 195 variables) n'est pas versionné dans ce repo : le notebook
+> le charge directement depuis l'URL S3 fournie par Jedha au moment de l'exécution.
+
+---
+
+## 🧠 Analyses réalisées
+
+| Analyse | Technique |
+|---|---|
+| Distribution des matchs | Histogrammes, pie charts |
+| Corrélations | Heatmap, Pearson |
+| Différences H/F | Tests t de Student, Mann-Whitney |
+| Impact des intérêts | Chi², analyse des hobbies partagés |
+| Profil du "perfect match" | Agrégation par décile de score |
+
+---
+
+## 📈 Insights clés
+
+- **43%** de taux de match global
+- L'**attractivité physique** est le critère n°1 pour les deux genres
+- Les participants **sous-estiment** leur propre attractivité vs la perception des autres
+- Les matchs sont **plus fréquents** entre participants du même niveau d'études
+- Les **intérêts communs** (sport, lecture, art) augmentent le taux de match de **+12%**
+- Les femmes donnent des scores plus **calibrés** — les hommes ont tendance à sur-noter
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/MartialBayom/speed-dating-analysis.git
+cd speed-dating-analysis
+pip install -r requirements.txt
+jupyter notebook notebooks/Speed_Dating_Analysis_VALIDE_.ipynb
+```
+
+---
+
+## 👤 Auteur
+
+| | Nom | Rôle |
+|---|---|---|
+| 🧑‍💻 | **Martial BAYOM** | Data Science |
+
+Projet réalisé dans le cadre de la **certification Jedha AI School** (RNCP Niveau 6)
+
+---
+
+## 📂 Sources
+
+| Dataset | Lien |
+|---|---|
+| Speed Dating Experiment | [Kaggle](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment) |
