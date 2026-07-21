@@ -13,7 +13,7 @@
 
 **Qu'est-ce qui fait qu'on obtient un second rendez-vous après un speed dating ?**
 
-Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating pour identifier les facteurs clés qui influencent la décision de se revoir — attractivité physique, intérêts communs, ambition, sincérité...
+Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating pour identifier les facteurs clés qui influencent la décision de se revoir - attractivité physique, intérêts communs, ambition, sincérité...
 
 ---
 
