@@ -21,13 +21,14 @@ Ce projet analyse un dataset issu d'une compétition Kaggle sur le speed dating 
 
 | Facteur | Corrélation avec match | Remarque |
 |---|---|---|
-| Attractivité physique | **+0.42** | Facteur le plus discriminant |
-| Intérêts communs | **+0.31** | Fort impact sur la décision |
-| Ambition perçue | **-0.08** | Légèrement pénalisant |
-| Sincérité | **+0.18** | Plus importante chez les femmes |
-| Fun | **+0.35** | Deuxième facteur le plus important |
+| Attractivite physique | **+0.32** | Facteur le plus discriminant |
+| Interets communs | **+0.22** | Fort impact sur la decision |
+| Ambition | **+0.07** | Facteur le moins discriminant |
+| Sincerite | **+0.14** | Plus importante chez les femmes |
+| Fun | **+0.27** | Deuxieme facteur le plus important |
 
-> **43%** des participants obtiennent un match. Les femmes accordent plus d'importance à la sincérité, les hommes à l'attractivité physique.
+
+> **16%%** des participants obtiennent un match. Les femmes accordent plus d'importance à la sincérité, les hommes à l'attractivité physique.
 
 ---
 
@@ -39,7 +40,7 @@ speed-dating-analysis/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+16%
 >  Le dataset (~8 000 observations, 195 variables) n'est pas versionné dans ce repo : le notebook
 > le charge directement depuis l'URL S3 fournie par Jedha au moment de l'exécution.
 
